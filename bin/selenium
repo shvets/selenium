@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+$:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
+
+require 'rubygems' unless RUBY_VERSION =~ /1.9.*/
+require 'selenium'
+
+class SeleniumStarter
+
+  USAGE= <<-TEXT
+    Usage:
+      selenium help    - this help
+      selenium install - installs selenium
+      selenium         - runs the selenium server
+  TEXT
+
+  def initialize
+    @selenium = Selenium.new
+  end
+
+  def run
+    install_dir = ENV['HOME'] + "/.selenium/assets"
+    verion = "2.0a7"
+    source = "http://selenium.googlecode.com/files/selenium-server-#{verion}.zip"
+    target = install_dir + "/selenium-server-#{verion}.zip"
+    jar_file = install_dir + "/selenium-#{verion}/selenium-server-standalone-#{verion}.jar"
+
+    case ARGV.shift
+      when /(-v)|(--version)/ then
+        puts "Version: #{File.open(File::dirname(__FILE__) + "/../VERSION").readlines().first}"
+      when 'install' then
+        @selenium.install source, target
+      when 'help' then
+        puts USAGE and return
+      else
+        @selenium.run jar_file
+    end
+  end
+end
+
+SeleniumStarter.new.run

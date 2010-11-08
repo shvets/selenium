@@ -1,0 +1,12 @@
+= Selenium -- Gem wrapper for selenium server
+
+= Installing Selenium
+
+== Installing Selenium
+    $ gem install selenium
+
+== Usage
+
+    selenium install - installs selenium
+    selenium         -  runs the selenium server 
+      
