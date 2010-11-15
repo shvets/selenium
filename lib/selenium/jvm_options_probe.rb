@@ -1,16 +1,13 @@
-if RUBY_PLATFORM =~ /windows/
-  require 'win32-open3' 
-else
-  require "open3"
-end
+require 'rbconfig'
 
+require 'open3' unless Config::CONFIG['host_os'] =~ /mswin|mingw|windows/
  
 class JvmOptionsProbe
  
   def initialize
     @d32 = @d64 = @client = false
 
-    if RUBY_PLATFORM =~ /windows/
+    if WINDOZE
       @help = `java -h`
       @d32 = (@help == `java -d32`) ? true : false
       @d64 = (@help == `java -d64`) ? true : false

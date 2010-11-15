@@ -6,12 +6,11 @@ $:.unshift(File.dirname(__FILE__)) unless
 require 'fileutils'
 require 'net/http'
 
-if RUBY_PLATFORM =~ /windows/
-  require "zip/zipfilesystem"
-else
-  require 'zip/zip'  
-end
-
 require 'selenium/selenium'
 require 'selenium/runner'
 require 'selenium/jvm_options_probe'
+
+require 'rbconfig'
+WINDOZE = Config::CONFIG['host_os'] =~ /mswin|mingw|windows/
+
+WINDOZE ? (require "zip/zipfilesystem") : (require 'zip/zip')

@@ -1,6 +1,9 @@
 source "http://rubygems.org"
 
+require 'rbconfig'
+WINDOZE = Config::CONFIG['host_os'] =~ /mswin|mingw|windows/
+
 gem 'jeweler'
-gem "rubyzip"
-gem 'win32-open3' if RUBY_PLATFORM =~ /windows/
+gem "rubyzip" if WINDOZE
+
 
