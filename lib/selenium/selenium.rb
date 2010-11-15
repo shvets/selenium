@@ -1,23 +1,38 @@
+require 'open-uri'
+
 class Selenium
   def download_file_to(uri, destination_file)
-    connection = Net::HTTP
+    print "  downloading #{uri}... "; $stdout.flush
+    
+    temp = destination_file + ".part"
+    FileUtils.mkdir_p(File.dirname(destination_file))
+    
+    File.open(temp, "wb") do |out_file|
+      open(uri) do |in_file| 
+        done = false
+        
+        while(!done) do
+          buffer = in_file.read(1024*1000)
+          out_file.write(buffer)
+            
+          if buffer.nil? || buffer.size == 0
+            done = true
+          else
+            print("#"); $stdout.flush             
+          end
+        end
+      end
+    end
 
-     print "  downloading #{uri}... "; $stdout.flush
-     temporary_target  = destination_file + ".part"
-     FileUtils.mkdir_p(File.dirname(destination_file))
-     File.open(temporary_target, "wb") do |write_out|
-       write_out.print connection.get(URI.parse(uri))
-     end
+    if File.open(temp).read(200) =~ /Access Denied/
+      puts "\n\n*** Error downloading #{uri}, got Access Denied from S3."
+      FileUtils.rm_rf(temp)
+      exit
+    end
 
-     if File.open(temporary_target).read(200) =~ /Access Denied/
-       puts "\n\n*** Error downloading #{uri}, got Access Denied from S3."
-       FileUtils.rm_rf(temporary_target)
-       exit
-     end
-
-     FileUtils.cp(temporary_target, destination_file)
-     FileUtils.rm_rf(temporary_target)
-     puts "done!"
+     FileUtils.cp(temp, destination_file)
+     FileUtils.rm_rf(temp)
+     puts "\ndone!"
    end
 
    # unzip a .zip file into the directory it is located

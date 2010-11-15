@@ -1,4 +1,9 @@
-require "open3"
+if RUBY_PLATFORM =~ /windows/
+  require 'win32-open3' 
+else
+  require "open3"
+end
+
  
 class JvmOptionsProbe
  

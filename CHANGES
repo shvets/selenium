@@ -1,7 +1,10 @@
 
 = Selenium Server Gem Changelog
 
-== Version 0.1.1
+== Version 0.0.1
 
 * Initial release.
 
+== Version 0.0.2
+
+* Addign suppoert for windows.
