@@ -32,7 +32,7 @@ begin
 
         $ selenium install
 
-      NB. This will download jars that Redcar needs to run from the internet.
+      NB. This will download jars that this gem needs to run from the internet.
       It will put them into ~/.selenium/assets.
 
       -------------------------------------------------------------------------------
