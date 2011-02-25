@@ -20,7 +20,7 @@ class SeleniumStarter
 
   def run
     install_dir = ENV['HOME'] + "/.selenium/assets"
-    verion = "2.0a7"
+    verion = "2.0b2"
     source = "http://selenium.googlecode.com/files/selenium-server-#{verion}.zip"
     target = install_dir + "/selenium-server-#{verion}.zip"
     jar_file = install_dir + "/selenium-#{verion}/selenium-server-standalone-#{verion}.jar"
