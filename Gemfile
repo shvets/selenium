@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source :rubygems
 
 require 'rbconfig'
 WINDOZE = Config::CONFIG['host_os'] =~ /mswin|mingw|windows/
