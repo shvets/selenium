@@ -7,9 +7,11 @@ GEM
       git (>= 1.2.5)
       rake
     rake (0.8.7)
+    zip (2.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jeweler
+  zip
