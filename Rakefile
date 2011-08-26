@@ -46,6 +46,7 @@ rescue LoadError
   puts "Bundler not available. Install it s with: [sudo] gem install bundler"
 end
 
+
 desc "Release the gem"
 task :"release:gem" do
   %x(
