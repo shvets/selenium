@@ -1,11 +1,10 @@
 #!/usr/bin/env ruby
 
-$:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
-
 require 'rubygems' unless RUBY_VERSION =~ /1.9.*/
-require 'selenium'
+require 'jar_wrapper'
 
 class SeleniumStarter
+  SELENIUM_VERSION = "2.5.0"
 
   USAGE= <<-TEXT
     Usage:
@@ -15,27 +14,29 @@ class SeleniumStarter
   TEXT
 
   def initialize
-    @selenium = Selenium.new
+    @wrapper = JarWrapper.new
   end
 
   def run
     install_dir = ENV['HOME'] + "/.selenium/assets"
-    verion = "2.5.0"
-    source = "http://selenium.googlecode.com/files/selenium-server-#{verion}.zip"
-    target = install_dir + "/selenium-server-#{verion}.zip"
-    jar_file = install_dir + "/selenium-#{verion}/selenium-server-standalone-#{verion}.jar"
 
-    case ARGV.shift
+    source = "http://selenium.googlecode.com/files/selenium-server-#{SELENIUM_VERSION}.zip"
+    target = install_dir + "/selenium-server-#{SELENIUM_VERSION}.zip"
+    jar_file = install_dir + "/selenium-#{SELENIUM_VERSION}/selenium-server-standalone-#{SELENIUM_VERSION}.jar"
+
+    param = ARGV.length == 0 ? "" : ARGV.first
+
+    case param
       when /(-v)|(--version)/ then
         puts "Version: #{File.open(File::dirname(__FILE__) + "/../VERSION").readlines().first}"
       when 'install' then
-        @selenium.install source, target
+        @wrapper.install source, target
       when 'help' then
         puts USAGE and return
       else
-        @selenium.run jar_file
+        @wrapper.jar_file = jar_file1
+        @wrapper.run jar_file ARGV
     end
   end
 end
 
-SeleniumStarter.new.run
