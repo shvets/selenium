@@ -1,7 +1,0 @@
-rake gemspec
-rake build
-rake install
-git add .
-git commit -m "code change"
-git push origin master
-rake release
