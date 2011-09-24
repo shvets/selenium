@@ -40,3 +40,4 @@ class SeleniumStarter
   end
 end
 
+SeleniumStarter.new.run
