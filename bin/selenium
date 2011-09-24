@@ -34,8 +34,8 @@ class SeleniumStarter
       when 'help' then
         puts USAGE and return
       else
-        @wrapper.jar_file = jar_file1
-        @wrapper.run jar_file ARGV
+        @wrapper.jar_file = jar_file
+        @wrapper.run ARGV.nil? ? [] : ARGV
     end
   end
 end

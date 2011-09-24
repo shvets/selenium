@@ -8,7 +8,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium/runner.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/lib/selenium/selenium.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/selenium" afterPath="$PROJECT_DIR$/bin/selenium" />
     </list>
     <ignored path="selenium.iws" />
@@ -41,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VERSION" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="VERSION" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VERSION">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+            <state line="0" column="78" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selenium" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="selenium" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/selenium">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="113" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-17.538462">
+            <state line="19" column="113" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3478261">
               <folding />
             </state>
           </provider>
@@ -113,8 +112,8 @@
         <option value="$PROJECT_DIR$/bin/Gemfile" />
         <option value="$PROJECT_DIR$/CHANGES" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/bin/selenium" />
         <option value="$PROJECT_DIR$/VERSION" />
+        <option value="$PROJECT_DIR$/bin/selenium" />
       </list>
     </option>
   </component>
@@ -337,16 +336,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/selenium">
+    <entry file="file://$PROJECT_DIR$/VERSION">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="113" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-17.538462">
+        <state line="0" column="78" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VERSION">
+    <entry file="file://$PROJECT_DIR$/bin/selenium">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+        <state line="19" column="113" selection-start="373" selection-end="373" vertical-scroll-proportion="0.3478261">
           <folding />
         </state>
       </provider>
