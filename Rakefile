@@ -22,7 +22,7 @@ begin
       gemspec.requirements = ["none"]
       gemspec.bindir = "bin"
     
-      gemspec.add_bundler_dependencies
+      #gemspec.add_bundler_dependencies
       
       gemspec.post_install_message = <<-TEXT
 
