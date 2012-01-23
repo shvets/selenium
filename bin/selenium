@@ -22,7 +22,7 @@ class SeleniumStarter
 
     source = "http://selenium.googlecode.com/files/selenium-server-#{SELENIUM_VERSION}.zip"
     target = install_dir + "/selenium-server-#{SELENIUM_VERSION}.zip"
-    jar_file = install_dir + "/selenium-#{SELENIUM_VERSION}/selenium-server-standalone-#{SELENIUM_VERSION}.jar"
+    jar_file = install_dir + "/selenium-server-standalone-#{SELENIUM_VERSION}.jar"
 
     param = ARGV.length == 0 ? "" : ARGV.first
 
