@@ -4,6 +4,12 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.rc.5, RVM: ruby-1.9.2-p290 [selenium]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="git (v1.2.5, RVM: ruby-1.9.2-p290 [selenium]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jar_wrapper (v0.1.0, RVM: ruby-1.9.2-p290 [selenium]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jeweler (v1.6.4, RVM: ruby-1.9.2-p290 [selenium]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v0.9.2, RVM: ruby-1.9.2-p290 [selenium]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="zip (v2.0.2, RVM: ruby-1.9.2-p290 [selenium]) [gem]" level="application" />
   </component>
 </module>
 

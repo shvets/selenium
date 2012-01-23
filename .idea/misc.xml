@@ -5,9 +5,6 @@
     <strategy useRoutes="false" mediaReduce="false" fileReduce="false" currentDocumentsReduce="false" />
     <routes />
   </component>
-  <component name="DependencyValidationManager">
-    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
-  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-1.9.2-p290 [selenium]" project-jdk-type="RUBY_SDK" />
 </project>
 
