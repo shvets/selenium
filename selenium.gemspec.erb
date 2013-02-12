@@ -1,0 +1,32 @@
+# -*- encoding: utf-8 -*-
+
+require File.expand_path(File.dirname(__FILE__) + '/lib/selenium/version')
+
+Gem::Specification.new do |spec|
+  spec.name = "selenium"
+  spec.summary = %q{Gem wrapper for selenium server.}
+  spec.description = %q{Gem wrapper for selenium server.}
+  spec.email = "alexander.shvets@gmail.com"
+  spec.authors = ["Alexander Shvets"]
+  spec.homepage = "http://github.com/shvets/selenium"
+
+  spec.files = `git ls-files`.split($\)
+  spec.test_files = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_paths = ["lib"]
+  spec.executables   = ["selenium"]
+  spec.version = Selenium::VERSION
+
+  spec.post_install_message = <<-TEXT
+
+      -------------------------------------------------------------------------------
+
+      Please now run:
+
+        $ selenium install
+
+      NB. This will download jars that this gem needs to run from the internet.
+      It will put them into ~/.selenium/assets.
+
+      -------------------------------------------------------------------------------
+  TEXT
+end

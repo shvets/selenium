@@ -1,71 +1,37 @@
-# Rakefile for selenium
+#!/usr/bin/env rake
 
-task :default => :gemspec
+$LOAD_PATH.unshift File.expand_path("lib", File.dirname(__FILE__))
 
-begin
-  require 'bundler'
-  
-  begin
-    require 'jeweler'
-    
-    Jeweler::Tasks.new do |gemspec|
-      gemspec.name = "selenium"
-      gemspec.summary = "Gem wrapper for selenium server (Summary)."
-      gemspec.description = "Gem wrapper for selenium server."
-      gemspec.email = "alexander.shvets@gmail.com"
-      gemspec.homepage = "http://github.com/shvets/selenium"
-      gemspec.authors = ["Alexander Shvets"]
-      gemspec.files = FileList["CHANGES", "selenium.gemspec", "Rakefile", "README", "VERSION",
-                               "lib/**/*", "bin/**/*"] 
+require "rspec/core/rake_task"
+require "selenium/version"
+require "gemspec_deps_gen/gemspec_deps_gen"
 
-      gemspec.executables = ['selenium']
-      gemspec.requirements = ["none"]
-      gemspec.bindir = "bin"
-    
-      #gemspec.add_bundler_dependencies
-      
-      gemspec.post_install_message = <<-TEXT
-
-      -------------------------------------------------------------------------------
-
-      Please now run:
-
-        $ selenium install
-
-      NB. This will download jars that this gem needs to run from the internet.
-      It will put them into ~/.selenium/assets.
-
-      -------------------------------------------------------------------------------
-TEXT
-      
-    end
-  rescue LoadError
-    puts "Jeweler not available. Install it s with: [sudo] gem install jeweler"
-  end
-rescue LoadError
-  puts "Bundler not available. Install it s with: [sudo] gem install bundler"
+def version
+  Selenium::VERSION
 end
 
-
-desc "Release the gem"
-task :"release:gem" do
-  %x(
-      rake gemspec
-      rake build
-      rake install
-      git add .  
-  )  
-  puts "Commit message:"  
-  message = STDIN.gets
-
-  version = "#{File.open(File::dirname(__FILE__) + "/VERSION").readlines().first}"
-
-  %x(
-    git commit -m "#{message}"
-    
-    git push origin master
-
-    gem push pkg/selenium-#{version}.gem      
-  )
+def project_name
+  File.basename(Dir.pwd)
 end
 
+task :build do
+  system "rm #{project_name}.gemspec"
+  generator = GemspecDepsGen.new
+
+  generator.generate_dependencies "#{project_name}.gemspec.erb", "#{project_name}.gemspec"
+
+  system "gem build #{project_name}.gemspec"
+end
+
+task :install do
+  system "gem install #{project_name}-#{version}.gem"
+end
+
+task :release => :build do
+  system "gem push #{project_name}-#{version}.gem"
+end
+
+RSpec::Core::RakeTask.new do |task|
+  task.pattern = 'spec/**/*_spec.rb'
+  task.verbose = false
+end
