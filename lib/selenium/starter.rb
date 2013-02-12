@@ -1,3 +1,4 @@
+require 'jar_wrapper'
 require 'selenium/version'
 
 module Selenium
@@ -14,7 +15,7 @@ module Selenium
     attr_reader :wrapper
 
     def initialize
-      @wrapper = JarWrapper.new
+      @wrapper = JarWrapper::Runner.new
     end
 
     def run params
