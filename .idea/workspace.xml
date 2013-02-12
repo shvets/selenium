@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c152a41-4ea1-48f8-835b-c8d503f8157f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/selenium.gemspec.erb" afterPath="$PROJECT_DIR$/selenium.gemspec.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium.iml" afterPath="$PROJECT_DIR$/.idea/selenium.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/selenium" afterPath="$PROJECT_DIR$/bin/selenium" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.53900707">
+            <state line="21" column="35" selection-start="251" selection-end="284" vertical-scroll-proportion="0.59574467">
               <folding />
             </state>
           </provider>
@@ -581,7 +581,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CHANGES">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.53900707">
+        <state line="21" column="35" selection-start="251" selection-end="284" vertical-scroll-proportion="0.59574467">
           <folding />
         </state>
       </provider>
