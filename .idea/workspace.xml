@@ -56,10 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="starter.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGES">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="34" selection-start="251" selection-end="283" vertical-scroll-proportion="0.59574467">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="starter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="32" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6879433">
+            <state line="16" column="122" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -483,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGES">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="39" selection-end="39" vertical-scroll-proportion="0.056737587">
@@ -525,6 +527,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="122" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="120" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
@@ -532,9 +541,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
+    <entry file="file://$PROJECT_DIR$/CHANGES">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="32" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.6879433">
+        <state line="21" column="34" selection-start="251" selection-end="283" vertical-scroll-proportion="0.59574467">
           <folding />
         </state>
       </provider>
