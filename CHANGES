@@ -21,3 +21,7 @@
 
 * Updating selenium server version.
 * Bug fixes
+
+== Version 0.2.9
+
+* Updating selenium server version to fix issue with FF19.
