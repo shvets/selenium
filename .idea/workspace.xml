@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1c152a41-4ea1-48f8-835b-c8d503f8157f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium.iml" afterPath="$PROJECT_DIR$/.idea/selenium.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium/starter.rb" afterPath="$PROJECT_DIR$/lib/selenium/starter.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium/version.rb" afterPath="$PROJECT_DIR$/lib/selenium/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="starter.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="starter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.08792497">
+            <state line="5" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CHANGES" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="26" column="2" selection-start="318" selection-end="373" vertical-scroll-proportion="0.45720986">
               <folding />
             </state>
           </provider>
@@ -552,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGES">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/selenium">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="8" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
@@ -568,7 +563,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.08792497">
+        <state line="5" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGES">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="2" selection-start="318" selection-end="373" vertical-scroll-proportion="0.45720986">
           <folding />
         </state>
       </provider>
