@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c152a41-4ea1-48f8-835b-c8d503f8157f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium.iml" afterPath="$PROJECT_DIR$/.idea/selenium.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium/starter.rb" afterPath="$PROJECT_DIR$/lib/selenium/starter.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium/version.rb" afterPath="$PROJECT_DIR$/lib/selenium/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium.iws" />
