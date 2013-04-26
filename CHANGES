@@ -25,3 +25,7 @@
 == Version 0.2.9
 
 * Updating selenium server version to fix issue with FF19.
+
+== Version 0.2.10
+
+* Updating selenium server version to fix issue with FF20.

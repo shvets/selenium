@@ -5,6 +5,6 @@
     <strategy useRoutes="false" mediaReduce="false" fileReduce="false" currentDocumentsReduce="false" />
     <routes />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-1.9.3-p385 [selenium]" project-jdk-type="RUBY_SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-1.9.3-p392 [selenium]" project-jdk-type="RUBY_SDK" />
 </project>
 

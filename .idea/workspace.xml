@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c152a41-4ea1-48f8-835b-c8d503f8157f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGES" afterPath="$PROJECT_DIR$/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/selenium.iml" afterPath="$PROJECT_DIR$/.idea/selenium.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium/starter.rb" afterPath="$PROJECT_DIR$/lib/selenium/starter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/selenium/version.rb" afterPath="$PROJECT_DIR$/lib/selenium/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="selenium.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1361410148802" ignored="false" />
+    <file path="/Dummy.txt" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1367003665849" ignored="false" />
     <file path="/version.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360707454986" ignored="false" />
     <file path="/selenium.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360705056264" ignored="false" />
     <file path="/selenium" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360705982714" ignored="false" />
@@ -30,7 +35,7 @@
     <file path="/Gemfile" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360709534528" ignored="false" />
     <file path="$PROJECT_DIR$/../jar_wrapper/jar_wrapper.gemspec" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360709969148" ignored="false" />
     <file path="/jar_wrapper.gemspec" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360708115815" ignored="false" />
-    <file path="/starter.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360708757006" ignored="false" />
+    <file path="/starter.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1367004317484" ignored="false" />
     <file path="$PROJECT_DIR$/../jar_wrapper/lib/jar_wrapper/runner.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360709317746" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@jar_wrapper/gems/zip-2.0.2/lib/zip/zipfilesystem.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360709391465" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385@jar_wrapper/gems/mocha-0.13.2/lib/mocha/object_methods.rb" changelist="1c152a41-4ea1-48f8-835b-c8d503f8157f" time="1360709391465" ignored="false" />
@@ -54,10 +59,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="starter.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="starter.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+            <state line="22" column="18" selection-start="457" selection-end="457" vertical-scroll-proportion="0.625222">
               <folding />
             </state>
           </provider>
@@ -81,10 +86,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CHANGES" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="selenium.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="24" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/selenium/version.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGES" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CHANGES">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="2" selection-start="318" selection-end="373" vertical-scroll-proportion="0.45720986">
+            <state line="18" column="41" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,19 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selenium.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/selenium.rb">
+      <file leaf-file-name="selenium.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/selenium.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/selenium/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -276,15 +290,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="177" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="966" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="964" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="966" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="175" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="171" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -394,13 +408,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="22" width="1571" height="978" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26032788" sideWeight="0.6719637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26360655" sideWeight="0.6708286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -445,7 +459,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -455,6 +469,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -468,6 +486,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -485,11 +504,6 @@
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="58" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/selenium.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
@@ -545,7 +559,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+        <state line="1" column="19" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGES">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="41" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/selenium.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -559,14 +587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/selenium/starter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CHANGES">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="318" selection-end="373" vertical-scroll-proportion="0.45720986">
+        <state line="22" column="18" selection-start="457" selection-end="457" vertical-scroll-proportion="0.625222">
           <folding />
         </state>
       </provider>

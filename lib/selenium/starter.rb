@@ -3,7 +3,7 @@ require 'selenium/version'
 
 module Selenium
   class Starter
-    SELENIUM_SERVER_VERSION = "2.30.0"
+    SELENIUM_SERVER_VERSION = "2.32.0"
 
     USAGE= <<-TEXT
     Usage:
