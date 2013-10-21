@@ -9,4 +9,34 @@
 
     selenium install - installs selenium
     selenium         -  runs the selenium server 
+    
+== Note
+
+If you are on OSX, you have better option with homebrew help:
+
+```bash
+brew install selenium-server-standalone
+```
+
+Standalone selenium server is implemented as launchd agent.
+
+To have launchd start selenium-server-standalone at login, create soft link:
+
+```bash
+ln -sfv /usr/local/opt/selenium-server-standalone/*.plist ~/Library/LaunchAgents
+```
+
+Then load selenium-server-standalone agent:
+
+```bash
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.selenium-server-standalone.plist
+```
+
+It will run selenium server on port 4444.
+
+If you don't want to use agent, use java directly:
+
+```bash
+java -jar /usr/local/opt/selenium-server-standalone/selenium-server-standalone-2.35.0.jar -p 4444
+```
       
