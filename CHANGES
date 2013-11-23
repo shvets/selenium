@@ -29,3 +29,7 @@
 == Version 0.2.10
 
 * Updating selenium server version to fix issue with FF20.
+
+== Version 0.2.11
+
+* Selenium server version bump.

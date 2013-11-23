@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'rubygems' unless Object.const_defined?(:Gem)
-
 $:.unshift(File::join(File::dirname(File::dirname(__FILE__)), "lib"))
 
 require 'selenium'

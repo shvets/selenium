@@ -6,25 +6,25 @@ require "rspec/core/rake_task"
 require "selenium/version"
 require "gemspec_deps_gen/gemspec_deps_gen"
 
-def version
-  Selenium::VERSION
-end
+version = Selenium::VERSION
+project_name = File.basename(Dir.pwd)
 
-def project_name
-  File.basename(Dir.pwd)
-end
-
-task :build do
-  system "rm #{project_name}.gemspec"
+task :gen do
   generator = GemspecDepsGen.new
 
-  generator.generate_dependencies "#{project_name}.gemspec.erb", "#{project_name}.gemspec"
+  generator.generate_dependencies "spec", "#{project_name}.gemspec.erb", "#{project_name}.gemspec"
+end
 
+task :build => :gen do
   system "gem build #{project_name}.gemspec"
 end
 
 task :install do
   system "gem install #{project_name}-#{version}.gem"
+end
+
+task :uninstall do
+  system "gem uninstall #{project_name}"
 end
 
 task :release => :build do
