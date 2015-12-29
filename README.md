@@ -7,7 +7,7 @@
 # Usage
 
     selenium install - installs selenium
-    selenium         -  runs the selenium server 
+    selenium         - runs the selenium server 
     
 # Note
 
