@@ -3,7 +3,7 @@ require 'selenium/version'
 
 module Selenium
   class Starter
-    SELENIUM_SERVER_VERSION = "2.37.0"
+    SELENIUM_SERVER_VERSION = "2.39.0"
 
     USAGE= <<-TEXT
     Usage:
@@ -27,7 +27,7 @@ module Selenium
         when /(-v)|(--version)/ then
           puts "Version: #{Selenium::VERSION}"
         when 'install' then
-          source   = "http://selenium.googlecode.com/files/selenium-server-#{selenium_version}.zip"
+          source   = "http://selenium-release.storage.googleapis.com/2.39/selenium-server-2.39.0.zip"
           target   = install_dir + "/selenium-server-#{selenium_version}.zip"
 
           wrapper.install source, target
